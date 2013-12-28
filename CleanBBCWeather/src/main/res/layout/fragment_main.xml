@@ -9,39 +9,21 @@
     tools:context=".MainActivity$PlaceholderFragment"
     android:visibility="visible">
 
-    <CheckBox
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hide Background"
-        android:id="@+id/hideBackground"
-        android:layout_alignParentLeft="true"
-        android:checked="false"/>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hide BBC Logo"
-        android:id="@+id/hideLogo"
-        android:layout_below="@+id/hideBackground"
-        android:layout_alignParentLeft="true"
-        android:checked="false"/>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hide Refresh"
-        android:id="@+id/hideRefresh"
-        android:layout_below="@+id/hideLogo"
-        android:layout_alignParentLeft="true"
-        android:checked="false"/>
+        android:text="@string/app_desc"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="https://code.google.com/p/clean-bbc-weather/"
-        android:id="@+id/textView"
-        android:layout_below="@+id/hideRefresh"
+        android:text="@string/app_repo"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="65dp"/>
+        android:layout_marginTop="58dp"/>
 
 </RelativeLayout>

@@ -2,6 +2,11 @@
 <resources>
 
     <string name="app_name">Clean BBC Weather Widget</string>
+    <string name="app_description">Clean BBC Weather Widget. Makes the BBC Weather widget have a fully transparent background.</string>
+    <string name="app_repo">https://code.google.com/p/clean-bbc-weather/</string>
     <string name="action_settings">Settings</string>
+    <string name="pref_hide_background">Hide background</string>
+    <string name="pref_hide_logo">Hide BBC logo</string>
+    <string name="pref_hide_refresh">Hide refresh button</string><string name="app_desc">Clean BBC Weather Widget.\nMakes the BBC Weather widget have a fully transparent background.</string>
 
 </resources>
