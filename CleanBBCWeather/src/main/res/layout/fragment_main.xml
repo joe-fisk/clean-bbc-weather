@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:visibility="gone">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide Background"
+        android:id="@+id/hideBackground"
+        android:layout_alignParentLeft="true"
+        android:checked="false"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide BBC Logo"
+        android:id="@+id/hideLogo"
+        android:layout_below="@+id/hideBackground"
+        android:layout_alignParentLeft="true"
+        android:checked="false"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide Refresh"
+        android:id="@+id/hideRefresh"
+        android:layout_below="@+id/hideLogo"
+        android:layout_alignParentLeft="true"
+        android:checked="false"/>
+
+</RelativeLayout>
