@@ -1,0 +1,1 @@
+Xposed module. Makes the BBC Weather widget have a fully transparent background.
